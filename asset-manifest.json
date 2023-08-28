@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ransom/static/css/main.1e6ee6b3.css",
+    "main.css": "/ransom/static/css/main.af8bf80b.css",
     "main.js": "/ransom/static/js/main.5d02e8f2.js",
     "static/js/787.1ec71660.chunk.js": "/ransom/static/js/787.1ec71660.chunk.js",
     "static/media/GamjaFlower-Regular.ttf": "/ransom/static/media/GamjaFlower-Regular.317f969e43bbf7cb06a0.ttf",
@@ -83,12 +83,12 @@
     "static/media/EduSABeginner-Regular.ttf": "/ransom/static/media/EduSABeginner-Regular.31ef696ded3b66aa13a6.ttf",
     "static/media/AllertaStencil-Regular.ttf": "/ransom/static/media/AllertaStencil-Regular.8cc527f1047bc770e4a5.ttf",
     "index.html": "/ransom/index.html",
-    "main.1e6ee6b3.css.map": "/ransom/static/css/main.1e6ee6b3.css.map",
+    "main.af8bf80b.css.map": "/ransom/static/css/main.af8bf80b.css.map",
     "main.5d02e8f2.js.map": "/ransom/static/js/main.5d02e8f2.js.map",
     "787.1ec71660.chunk.js.map": "/ransom/static/js/787.1ec71660.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e6ee6b3.css",
+    "static/css/main.af8bf80b.css",
     "static/js/main.5d02e8f2.js"
   ]
 }
