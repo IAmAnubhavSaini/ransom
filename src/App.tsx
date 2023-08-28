@@ -1,26 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {Font} from "./Font";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [text, setText] = React.useState<string>("Your wife's boyfriend is in our custody, send her cat's photo to confirm!");
+    return (<div className="App">
+        <div>
+            <input
+                style={{
+                    width: "800px", height: "50px", padding: "10px", fontSize: "20px",
+                }}
+                type="text" placeholder="Type here"
+                onChange={e => setText(e.target.value)}/>
+        </div>
+        <div style={{width: "800px", margin: "0 auto", wordSpacing: "30px", letterSpacing:"5px"}}>
+            {text.split('').map((ch, i) => {
+                return <Font ch={ch} key={i}/>
+            })}
+        </div>
+    </div>);
 }
 
 export default App;

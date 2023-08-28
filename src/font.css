@@ -1,0 +1,714 @@
+/*
+fonts.map(f => `@font-face { font-family: ${f.split('_').join('')}; src: local('${f.split('_').join('')}'), url('./fonts/${f}/${f.split('_').join('')}-Regular.ttf') format('truetype'); } .${f} { font-family: ${f.split('_').join('')}; }`);
+*/
+
+@font-face {
+    font-family: ADLaMDisplay;
+    src: local('ADLaMDisplay'), url('./fonts/ADLaM_Display/ADLaMDisplay-Regular.ttf') format('truetype');
+}
+
+.ADLaM_Display {
+    font-family: ADLaMDisplay;
+}
+
+@font-face {
+    font-family: Akronim;
+    src: local('Akronim'), url('./fonts/Akronim/Akronim-Regular.ttf') format('truetype');
+}
+
+.Akronim {
+    font-family: Akronim;
+}
+
+@font-face {
+    font-family: AllertaStencil;
+    src: local('AllertaStencil'), url('./fonts/Allerta_Stencil/AllertaStencil-Regular.ttf') format('truetype');
+}
+
+.Allerta_Stencil {
+    font-family: AllertaStencil;
+}
+
+@font-face {
+    font-family: AmaticSC;
+    src: local('AmaticSC'), url('./fonts/Amatic_SC/AmaticSC-Regular.ttf') format('truetype');
+}
+
+.Amatic_SC {
+    font-family: AmaticSC;
+}
+
+@font-face {
+    font-family: Audiowide;
+    src: local('Audiowide'), url('./fonts/Audiowide/Audiowide-Regular.ttf') format('truetype');
+}
+
+.Audiowide {
+    font-family: Audiowide;
+}
+
+@font-face {
+    font-family: BagelFatOne;
+    src: local('BagelFatOne'), url('./fonts/Bagel_Fat_One/BagelFatOne-Regular.ttf') format('truetype');
+}
+
+.Bagel_Fat_One {
+    font-family: BagelFatOne;
+}
+
+@font-face {
+    font-family: Barriecito;
+    src: local('Barriecito'), url('./fonts/Barriecito/Barriecito-Regular.ttf') format('truetype');
+}
+
+.Barriecito {
+    font-family: Barriecito;
+}
+
+@font-face {
+    font-family: Barrio;
+    src: local('Barrio'), url('./fonts/Barrio/Barrio-Regular.ttf') format('truetype');
+}
+
+.Barrio {
+    font-family: Barrio;
+}
+
+@font-face {
+    font-family: BethEllen;
+    src: local('BethEllen'), url('./fonts/Beth_Ellen/BethEllen-Regular.ttf') format('truetype');
+}
+
+.Beth_Ellen {
+    font-family: BethEllen;
+}
+
+@font-face {
+    font-family: BlackOpsOne;
+    src: local('BlackOpsOne'), url('./fonts/Black_Ops_One/BlackOpsOne-Regular.ttf') format('truetype');
+}
+
+.Black_Ops_One {
+    font-family: BlackOpsOne;
+}
+
+@font-face {
+    font-family: BungeeOutline;
+    src: local('BungeeOutline'), url('./fonts/Bungee_Outline/BungeeOutline-Regular.ttf') format('truetype');
+}
+
+.Bungee_Outline {
+    font-family: BungeeOutline;
+}
+
+@font-face {
+    font-family: BungeeShade;
+    src: local('BungeeShade'), url('./fonts/Bungee_Shade/BungeeShade-Regular.ttf') format('truetype');
+}
+
+.Bungee_Shade {
+    font-family: BungeeShade;
+}
+
+@font-face {
+    font-family: CabinSketch;
+    src: local('CabinSketch'), url('./fonts/Cabin_Sketch/CabinSketch-Regular.ttf') format('truetype');
+}
+
+.Cabin_Sketch {
+    font-family: CabinSketch;
+}
+
+@font-face {
+    font-family: CevicheOne;
+    src: local('CevicheOne'), url('./fonts/Ceviche_One/CevicheOne-Regular.ttf') format('truetype');
+}
+
+.Ceviche_One {
+    font-family: CevicheOne;
+}
+
+@font-face {
+    font-family: CinzelDecorative;
+    src: local('CinzelDecorative'), url('./fonts/Cinzel_Decorative/CinzelDecorative-Regular.ttf') format('truetype');
+}
+
+.Cinzel_Decorative {
+    font-family: CinzelDecorative;
+}
+
+@font-face {
+    font-family: Codystar;
+    src: local('Codystar'), url('./fonts/Codystar/Codystar-Regular.ttf') format('truetype');
+}
+
+.Codystar {
+    font-family: Codystar;
+}
+
+@font-face {
+    font-family: Comforter;
+    src: local('Comforter'), url('./fonts/Comforter/Comforter-Regular.ttf') format('truetype');
+}
+
+.Comforter {
+    font-family: Comforter;
+}
+
+@font-face {
+    font-family: DancingScript;
+    src: local('DancingScript'), url('./fonts/Dancing_Script/static/DancingScript-Regular.ttf') format('truetype');
+}
+
+.Dancing_Script {
+    font-family: DancingScript;
+}
+
+@font-face {
+    font-family: EduSABeginner;
+    src: local('EduSABeginner'), url('./fonts/Edu_SA_Beginner/static/EduSABeginner-Regular.ttf') format('truetype');
+}
+
+.Edu_SA_Beginner {
+    font-family: EduSABeginner;
+}
+
+@font-face {
+    font-family: Exo2;
+    src: local('Exo2'), url('./fonts/Exo_2/static/Exo2-Regular.ttf') format('truetype');
+}
+
+.Exo_2 {
+    font-family: Exo2;
+}
+
+@font-face {
+    font-family: FasterOne;
+    src: local('FasterOne'), url('./fonts/Faster_One/FasterOne-Regular.ttf') format('truetype');
+}
+
+.Faster_One {
+    font-family: FasterOne;
+}
+
+@font-face {
+    font-family: FrederickatheGreat;
+    src: local('FrederickatheGreat'), url('./fonts/Fredericka_the_Great/FrederickatheGreat-Regular.ttf') format('truetype');
+}
+
+.Fredericka_the_Great {
+    font-family: FrederickatheGreat;
+}
+
+@font-face {
+    font-family: GamjaFlower;
+    src: local('GamjaFlower'), url('./fonts/Gamja_Flower/GamjaFlower-Regular.ttf') format('truetype');
+}
+
+.Gamja_Flower {
+    font-family: GamjaFlower;
+}
+
+@font-face {
+    font-family: Geo;
+    src: local('Geo'), url('./fonts/Geo/Geo-Regular.ttf') format('truetype');
+}
+
+.Geo {
+    font-family: Geo;
+}
+
+@font-face {
+    font-family: Gluten;
+    src: local('Gluten'), url('./fonts/Gluten/static/Gluten-Regular.ttf') format('truetype');
+}
+
+.Gluten {
+    font-family: Gluten;
+}
+
+@font-face {
+    font-family: GochiHand;
+    src: local('GochiHand'), url('./fonts/Gochi_Hand/GochiHand-Regular.ttf') format('truetype');
+}
+
+.Gochi_Hand {
+    font-family: GochiHand;
+}
+
+@font-face {
+    font-family: HachiMaruPop;
+    src: local('HachiMaruPop'), url('./fonts/Hachi_Maru_Pop/HachiMaruPop-Regular.ttf') format('truetype');
+}
+
+.Hachi_Maru_Pop {
+    font-family: HachiMaruPop;
+}
+
+@font-face {
+    font-family: Handjet;
+    src: local('Handjet'), url('./fonts/Handjet/static/Handjet-Regular.ttf') format('truetype');
+}
+
+.Handjet {
+    font-family: Handjet;
+}
+
+@font-face {
+    font-family: HomemadeApple;
+    src: local('HomemadeApple'), url('./fonts/Homemade_Apple/HomemadeApple-Regular.ttf') format('truetype');
+}
+
+.Homemade_Apple {
+    font-family: HomemadeApple;
+}
+
+@font-face {
+    font-family: Hurricane;
+    src: local('Hurricane'), url('./fonts/Hurricane/Hurricane-Regular.ttf') format('truetype');
+}
+
+.Hurricane {
+    font-family: Hurricane;
+}
+
+@font-face {
+    font-family: IBMPlexMono;
+    src: local('IBMPlexMono'), url('./fonts/IBM_Plex_Mono/IBMPlexMono-Regular.ttf') format('truetype');
+}
+
+.IBM_Plex_Mono {
+    font-family: IBMPlexMono;
+}
+
+@font-face {
+    font-family: IrishGrover;
+    src: local('IrishGrover'), url('./fonts/Irish_Grover/IrishGrover-Regular.ttf') format('truetype');
+}
+
+.Irish_Grover {
+    font-family: IrishGrover;
+}
+
+@font-face {
+    font-family: JacquesFrancoisShadow;
+    src: local('JacquesFrancoisShadow'), url('./fonts/Jacques_Francois_Shadow/JacquesFrancoisShadow-Regular.ttf') format('truetype');
+}
+
+.Jacques_Francois_Shadow {
+    font-family: JacquesFrancoisShadow;
+}
+
+@font-face {
+    font-family: Kalam;
+    src: local('Kalam'), url('./fonts/Kalam/Kalam-Regular.ttf') format('truetype');
+}
+
+.Kalam {
+    font-family: Kalam;
+}
+
+@font-face {
+    font-family: KumarOneOutline;
+    src: local('KumarOneOutline'), url('./fonts/Kumar_One_Outline/KumarOneOutline-Regular.ttf') format('truetype');
+}
+
+.Kumar_One_Outline {
+    font-family: KumarOneOutline;
+}
+
+@font-face {
+    font-family: LaBelleAurore;
+    src: local('LaBelleAurore'), url('./fonts/La_Belle_Aurore/LaBelleAurore-Regular.ttf') format('truetype');
+}
+
+.La_Belle_Aurore {
+    font-family: LaBelleAurore;
+}
+
+@font-face {
+    font-family: LibreBarcode39ExtendedText;
+    src: local('LibreBarcode39ExtendedText'), url('./fonts/Libre_Barcode_39_Extended_Text/LibreBarcode39ExtendedText-Regular.ttf') format('truetype');
+}
+
+.Libre_Barcode_39_Extended_Text {
+    font-family: LibreBarcode39ExtendedText;
+}
+
+@font-face {
+    font-family: LibreBarcode39Text;
+    src: local('LibreBarcode39Text'), url('./fonts/Libre_Barcode_39_Text/LibreBarcode39Text-Regular.ttf') format('truetype');
+}
+
+.Libre_Barcode_39_Text {
+    font-family: LibreBarcode39Text;
+}
+
+@font-face {
+    font-family: LondrinaShadow;
+    src: local('LondrinaShadow'), url('./fonts/Londrina_Shadow/LondrinaShadow-Regular.ttf') format('truetype');
+}
+
+.Londrina_Shadow {
+    font-family: LondrinaShadow;
+}
+
+@font-face {
+    font-family: LuckiestGuy;
+    src: local('LuckiestGuy'), url('./fonts/Luckiest_Guy/LuckiestGuy-Regular.ttf') format('truetype');
+}
+
+.Luckiest_Guy {
+    font-family: LuckiestGuy;
+}
+
+@font-face {
+    font-family: Megrim;
+    src: local('Megrim'), url('./fonts/Megrim/Megrim-Regular.ttf') format('truetype');
+}
+
+.Megrim {
+    font-family: Megrim;
+}
+
+@font-face {
+    font-family: Metamorphous;
+    src: local('Metamorphous'), url('./fonts/Metamorphous/Metamorphous-Regular.ttf') format('truetype');
+}
+
+.Metamorphous {
+    font-family: Metamorphous;
+}
+
+@font-face {
+    font-family: MoiraiOne;
+    src: local('MoiraiOne'), url('./fonts/Moirai_One/MoiraiOne-Regular.ttf') format('truetype');
+}
+
+.Moirai_One {
+    font-family: MoiraiOne;
+}
+
+@font-face {
+    font-family: Monofett;
+    src: local('Monofett'), url('./fonts/Monofett/Monofett-Regular.ttf') format('truetype');
+}
+
+.Monofett {
+    font-family: Monofett;
+}
+
+@font-face {
+    font-family: Monoton;
+    src: local('Monoton'), url('./fonts/Monoton/Monoton-Regular.ttf') format('truetype');
+}
+
+.Monoton {
+    font-family: Monoton;
+}
+
+@font-face {
+    font-family: MonsieurLaDoulaise;
+    src: local('MonsieurLaDoulaise'), url('./fonts/Monsieur_La_Doulaise/MonsieurLaDoulaise-Regular.ttf') format('truetype');
+}
+
+.Monsieur_La_Doulaise {
+    font-family: MonsieurLaDoulaise;
+}
+
+@font-face {
+    font-family: MountainsofChristmas;
+    src: local('MountainsofChristmas'), url('./fonts/Mountains_of_Christmas/MountainsofChristmas-Regular.ttf') format('truetype');
+}
+
+.Mountains_of_Christmas {
+    font-family: MountainsofChristmas;
+}
+
+@font-face {
+    font-family: MysteryQuest;
+    src: local('MysteryQuest'), url('./fonts/Mystery_Quest/MysteryQuest-Regular.ttf') format('truetype');
+}
+
+.Mystery_Quest {
+    font-family: MysteryQuest;
+}
+
+@font-face {
+    font-family: Nosifer;
+    src: local('Nosifer'), url('./fonts/Nosifer/Nosifer-Regular.ttf') format('truetype');
+}
+
+.Nosifer {
+    font-family: Nosifer;
+}
+
+@font-face {
+    font-family: NothingYouCouldDo;
+    src: local('NothingYouCouldDo'), url('./fonts/Nothing_You_Could_Do/NothingYouCouldDo-Regular.ttf') format('truetype');
+}
+
+.Nothing_You_Could_Do {
+    font-family: NothingYouCouldDo;
+}
+
+@font-face {
+    font-family: Orbitron;
+    src: local('Orbitron'), url('./fonts/Orbitron/static/Orbitron-Regular.ttf') format('truetype');
+}
+
+.Orbitron {
+    font-family: Orbitron;
+}
+
+@font-face {
+    font-family: Pacifico;
+    src: local('Pacifico'), url('./fonts/Pacifico/Pacifico-Regular.ttf') format('truetype');
+}
+
+.Pacifico {
+    font-family: Pacifico;
+}
+
+@font-face {
+    font-family: Parisienne;
+    src: local('Parisienne'), url('./fonts/Parisienne/Parisienne-Regular.ttf') format('truetype');
+}
+
+.Parisienne {
+    font-family: Parisienne;
+}
+
+@font-face {
+    font-family: PetitFormalScript;
+    src: local('PetitFormalScript'), url('./fonts/Petit_Formal_Script/PetitFormalScript-Regular.ttf') format('truetype');
+}
+
+.Petit_Formal_Script {
+    font-family: PetitFormalScript;
+}
+
+@font-face {
+    font-family: Philosopher;
+    src: local('Philosopher'), url('./fonts/Philosopher/Philosopher-Regular.ttf') format('truetype');
+}
+
+.Philosopher {
+    font-family: Philosopher;
+}
+
+@font-face {
+    font-family: Phudu;
+    src: local('Phudu'), url('./fonts/Phudu/static/Phudu-Regular.ttf') format('truetype');
+}
+
+.Phudu {
+    font-family: Phudu;
+}
+
+@font-face {
+    font-family: PressStart2P;
+    src: local('PressStart2P'), url('./fonts/Press_Start_2P/PressStart2P-Regular.ttf') format('truetype');
+}
+
+.Press_Start_2P {
+    font-family: PressStart2P;
+}
+
+@font-face {
+    font-family: QwitcherGrypen;
+    src: local('QwitcherGrypen'), url('./fonts/Qwitcher_Grypen/QwitcherGrypen-Regular.ttf') format('truetype');
+}
+
+.Qwitcher_Grypen {
+    font-family: QwitcherGrypen;
+}
+
+@font-face {
+    font-family: RacingSansOne;
+    src: local('RacingSansOne'), url('./fonts/Racing_Sans_One/RacingSansOne-Regular.ttf') format('truetype');
+}
+
+.Racing_Sans_One {
+    font-family: RacingSansOne;
+}
+
+@font-face {
+    font-family: ReenieBeanie;
+    src: local('ReenieBeanie'), url('./fonts/Reenie_Beanie/ReenieBeanie-Regular.ttf') format('truetype');
+}
+
+.Reenie_Beanie {
+    font-family: ReenieBeanie;
+}
+
+@font-face {
+    font-family: Rubik80sFade;
+    src: local('Rubik80sFade'), url('./fonts/Rubik_80s_Fade/Rubik80sFade-Regular.ttf') format('truetype');
+}
+
+.Rubik_80s_Fade {
+    font-family: Rubik80sFade;
+}
+
+@font-face {
+    font-family: RubikIso;
+    src: local('RubikIso'), url('./fonts/Rubik_Iso/RubikIso-Regular.ttf') format('truetype');
+}
+
+.Rubik_Iso {
+    font-family: RubikIso;
+}
+
+@font-face {
+    font-family: RubikPixels;
+    src: local('RubikPixels'), url('./fonts/Rubik_Pixels/RubikPixels-Regular.ttf') format('truetype');
+}
+
+.Rubik_Pixels {
+    font-family: RubikPixels;
+}
+
+@font-face {
+    font-family: SairaStencilOne;
+    src: local('SairaStencilOne'), url('./fonts/Saira_Stencil_One/SairaStencilOne-Regular.ttf') format('truetype');
+}
+
+.Saira_Stencil_One {
+    font-family: SairaStencilOne;
+}
+
+@font-face {
+    font-family: SedgwickAveDisplay;
+    src: local('SedgwickAveDisplay'), url('./fonts/Sedgwick_Ave_Display/SedgwickAveDisplay-Regular.ttf') format('truetype');
+}
+
+.Sedgwick_Ave_Display {
+    font-family: SedgwickAveDisplay;
+}
+
+@font-face {
+    font-family: Shalimar;
+    src: local('Shalimar'), url('./fonts/Shalimar/Shalimar-Regular.ttf') format('truetype');
+}
+
+.Shalimar {
+    font-family: Shalimar;
+}
+
+@font-face {
+    font-family: Silkscreen;
+    src: local('Silkscreen'), url('./fonts/Silkscreen/Silkscreen-Regular.ttf') format('truetype');
+}
+
+.Silkscreen {
+    font-family: Silkscreen;
+}
+
+@font-face {
+    font-family: Slackey;
+    src: local('Slackey'), url('./fonts/Slackey/Slackey-Regular.ttf') format('truetype');
+}
+
+.Slackey {
+    font-family: Slackey;
+}
+
+@font-face {
+    font-family: SpecialElite;
+    src: local('SpecialElite'), url('./fonts/Special_Elite/SpecialElite-Regular.ttf') format('truetype');
+}
+
+.Special_Elite {
+    font-family: SpecialElite;
+}
+
+@font-face {
+    font-family: Stick;
+    src: local('Stick'), url('./fonts/Stick/Stick-Regular.ttf') format('truetype');
+}
+
+.Stick {
+    font-family: Stick;
+}
+
+@font-face {
+    font-family: Tangerine;
+    src: local('Tangerine'), url('./fonts/Tangerine/Tangerine-Regular.ttf') format('truetype');
+}
+
+.Tangerine {
+    font-family: Tangerine;
+}
+
+@font-face {
+    font-family: TiltPrism;
+    src: local('TiltPrism'), url('./fonts/Tilt_Prism/static/TiltPrism-Regular.ttf') format('truetype');
+}
+
+.Tilt_Prism {
+    font-family: TiltPrism;
+}
+
+@font-face {
+    font-family: TrainOne;
+    src: local('TrainOne'), url('./fonts/Train_One/TrainOne-Regular.ttf') format('truetype');
+}
+
+.Train_One {
+    font-family: TrainOne;
+}
+
+@font-face {
+    font-family: UnifrakturMaguntia;
+    src: local('UnifrakturMaguntia'), url('./fonts/UnifrakturMaguntia/UnifrakturMaguntia-Regular.ttf') format('truetype');
+}
+
+.UnifrakturMaguntia {
+    font-family: UnifrakturMaguntia;
+}
+
+@font-face {
+    font-family: VastShadow;
+    src: local('VastShadow'), url('./fonts/Vast_Shadow/VastShadow-Regular.ttf') format('truetype');
+}
+
+.Vast_Shadow {
+    font-family: VastShadow;
+}
+
+@font-face {
+    font-family: YatraOne;
+    src: local('YatraOne'), url('./fonts/Yatra_One/YatraOne-Regular.ttf') format('truetype');
+}
+
+.Yatra_One {
+    font-family: YatraOne;
+}
+
+@font-face {
+    font-family: Yellowtail;
+    src: local('Yellowtail'), url('./fonts/Yellowtail/Yellowtail-Regular.ttf') format('truetype');
+}
+
+.Yellowtail {
+    font-family: Yellowtail;
+}
+
+@font-face {
+    font-family: ZenTokyoZoo;
+    src: local('ZenTokyoZoo'), url('./fonts/Zen_Tokyo_Zoo/ZenTokyoZoo-Regular.ttf') format('truetype');
+}
+
+.Zen_Tokyo_Zoo {
+    font-family: ZenTokyoZoo;
+}
+
+@font-face {
+    font-family: Zeyada;
+    src: local('Zeyada'), url('./fonts/Zeyada/Zeyada-Regular.ttf') format('truetype');
+}
+
+.Zeyada {
+    font-family: Zeyada;
+}
