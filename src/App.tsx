@@ -3,7 +3,7 @@ import './App.css';
 import {Font} from "./Font";
 
 function App() {
-    const [text, setText] = React.useState<string>("Your wife's boyfriend is in our custody, send her cat's photo to confirm!");
+    const [text, setText] = React.useState<string>("This is a ransom note. It uses pretty fonts. Don't you think? Send money!");
     return (<div className="App">
         <div>
             <input
