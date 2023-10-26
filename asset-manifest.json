@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ransom/static/css/main.af8bf80b.css",
-    "main.js": "/ransom/static/js/main.5d02e8f2.js",
+    "main.js": "/ransom/static/js/main.94913da9.js",
     "static/js/787.1ec71660.chunk.js": "/ransom/static/js/787.1ec71660.chunk.js",
     "static/media/GamjaFlower-Regular.ttf": "/ransom/static/media/GamjaFlower-Regular.317f969e43bbf7cb06a0.ttf",
     "static/media/RubikPixels-Regular.ttf": "/ransom/static/media/RubikPixels-Regular.d09ba50521b1be4c70b4.ttf",
@@ -84,11 +84,11 @@
     "static/media/AllertaStencil-Regular.ttf": "/ransom/static/media/AllertaStencil-Regular.8cc527f1047bc770e4a5.ttf",
     "index.html": "/ransom/index.html",
     "main.af8bf80b.css.map": "/ransom/static/css/main.af8bf80b.css.map",
-    "main.5d02e8f2.js.map": "/ransom/static/js/main.5d02e8f2.js.map",
+    "main.94913da9.js.map": "/ransom/static/js/main.94913da9.js.map",
     "787.1ec71660.chunk.js.map": "/ransom/static/js/787.1ec71660.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.af8bf80b.css",
-    "static/js/main.5d02e8f2.js"
+    "static/js/main.94913da9.js"
   ]
 }
